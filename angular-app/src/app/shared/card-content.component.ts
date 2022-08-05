@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
       <div class="content">
         <div class="name">{{ name }}</div>
         <div class="description">{{ description }}</div>
+        <div class="quantity">{{ quantity }}</div>
       </div>
     </div>
   `
@@ -14,6 +15,6 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CardContentComponent implements OnInit {
   @Input() name;
   @Input() description;
-
+  @Input() quantity;
   ngOnInit() {}
 }

@@ -22,6 +22,7 @@ import { Product } from '../core';
           <app-card-content
             [name]="product.name"
             [description]="product.description"
+            [quantity]="product.quantity"
           ></app-card-content>
           <footer class="card-footer">
             <app-button-footer

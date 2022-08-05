@@ -37,42 +37,40 @@ import { Product } from '../core';
           </div>
           <div class="field">
             <label class="label" for="name">
-              name
+              Product Name
             </label>
             <input
               name="name"
               class="input"
               type="text"
               [(ngModel)]="editingProduct.name"
-              placeholder="Oranges"
+              placeholder="Vivek's Product"
             />
           </div>
           <div class="field">
             <label class="label" for="description">
-              description
+              Product Description and Link
             </label>
             <input
               name="description"
               class="input"
               type="text"
               [(ngModel)]="editingProduct.description"
-              placeholder="box"
+              placeholder="My product is about...."
             />
           </div>
           <div class="field">
-            <label class="label" for="quantity">
-              quantity
-            </label>
-            <input
-              name="quantity"
-              class="input"
-              type="number"
-              min="1"
-              max="100"
-              [(ngModel)]="editingProduct.quantity"
-              placeholder="1"
-            />
-          </div>
+          <label class="label" for="quantity">
+          Author
+          </label>
+          <input
+            name="quantity"
+            class="input"
+            type="text"
+            [(ngModel)]="editingProduct.quantity"
+            placeholder="Vivek Raja"
+          />
+        </div>
         </div>
       </div>
       <footer class="card-footer">
